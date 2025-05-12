@@ -14,7 +14,7 @@ st.set_page_config(page_title="Tanımlayıcı İstatistikler", layout="wide")
 st.title("📊 Gelişmiş Tanımlayıcı (Betimleyici) İstatistik Uygulaması")
 
 # Renk teması
-theme = st.selectbox("🎨 Tema seçin", ["light", "dark", "seaborn", "whitegrid", "ticks"])
+theme = st.selectbox("🎨 Tema seçin", [ "dark", "whitegrid", "ticks"])
 sns.set_theme(style=theme)
 
 # Excel yükleme
